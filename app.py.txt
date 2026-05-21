@@ -103,7 +103,7 @@ incap_labor_cost = required_incap_hours * 3 * hourly_wage
 
 # 3. 젤라틴 매스(Shell) 비용 계산
 # 충진량 비례 피막 젤라틴 소요 중량 예측 연산 (톤당 단가 환산)
-gelatin_mass_per_capsule_kg = (mold["base_mg"] * 0.45) / 1,000,000
+gelatin_mass_per_capsule_kg = (mold["base_mg"] * 0.45) / 1000000
 total_gelatin_cost = total_required_capsules * gelatin_mass_per_capsule_kg * coating["base_cost_per_kg"]
 
 # 4. 패키징 원가 계산
